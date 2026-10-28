@@ -1,0 +1,3 @@
+@echo off
+echo Starting CGPA Calculator...
+java --module-path "%USERPROFILE%\.m2\repository\org\openjfx\javafx-base\21.0.6\javafx-base-21.0.6-win.jar;%USERPROFILE%\.m2\repository\org\openjfx\javafx-controls\21.0.6\javafx-controls-21.0.6-win.jar;%USERPROFILE%\.m2\repository\org\openjfx\javafx-graphics\21.0.6\javafx-graphics-21.0.6-win.jar" --add-modules javafx.controls -cp "target\classes" com.cgpacalculator.Main
